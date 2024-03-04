@@ -59,5 +59,3 @@ function fillConfirmReservationData(customReservation) {
     document.querySelector('.confirm-reservation #guest-data-out').textContent = `Date-out: ${customReservation.endDate}`;
 }
 //End of function added by Admin
-
-changeContent('guest-details-form-content');
